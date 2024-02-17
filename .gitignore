@@ -1,0 +1,35 @@
+# .gitignore
+
+# Python-specific
+*.pyc
+__pycache__/
+*.pyo
+*.pyd
+*.db
+
+# Secret keys and sensitive information
+.env
+
+# Static files
+
+*.map
+
+# Media files
+media/
+
+# Database
+db.sqlite3
+
+# Local development settings
+*.log
+*.pot
+*.pyc
+*.pyo
+*.pyd
+*.sqlite3
+__pycache__/
+
+# Virtual environment
+venv/
+
+migrations
